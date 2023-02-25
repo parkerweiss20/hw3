@@ -28,6 +28,7 @@ void print(Node* head);
 void dealloc(Node* head);
 
 
+
 Node* readList(const char* filename)
 {
     Node* h = NULL;
@@ -84,7 +85,6 @@ int main(int argc, char* argv[])
     Node* head = readList(argv[1]);
     cout << "Original list: ";
     print(head);
-
     // Test out your linked list code
 
 
